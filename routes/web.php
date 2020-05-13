@@ -41,7 +41,7 @@ Route::post('/estore/insertItem', 'qrController@insertItem');
 Route::post('/estore/updateItem', 'qrController@updateItem');
 
 
-Route::get('galleryUpload', 'qrController@upload');
+Route::get('gallery', 'qrController@upload');
 Route::post('insertgalleryUpload', 'qrController@insertGallery')->name('gallery.upload');
 Route::get('deleteGallery/{id}', 'qrController@deleteGallery');
 Route::get('editGallery/{id}', 'qrController@editGallery');
